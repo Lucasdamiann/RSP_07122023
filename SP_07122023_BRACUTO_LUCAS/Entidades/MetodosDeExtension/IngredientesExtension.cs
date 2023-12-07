@@ -21,13 +21,13 @@ namespace Entidades.MetodosDeExtension
         public static List<EIngrediente> IngredientesAleatorios(this Random rand)
         {
             List<EIngrediente> ingredientes = new List<EIngrediente>()
-                {
+            {
                 EIngrediente.QUESO,
                 EIngrediente.PANCETA,
                 EIngrediente.ADHERESO,
                 EIngrediente.HUEVO,
                 EIngrediente.JAMON,
-                };
+            };
             return ingredientes.Take(rand.Next(1, 6)).ToList();
         }
     }

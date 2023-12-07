@@ -59,7 +59,7 @@ namespace Entidades.Modelos
         public double TiempoMedioDePreparacion { get => this.cantPedidosFinalizados == 0 ? 0 : this.demoraPreparacionTotal / this.cantPedidosFinalizados; }
         public string Nombre { get => nombre; }
         public int CantPedidosFinalizados { get => cantPedidosFinalizados; }
-        public Queue<T> Pedidos { get; }
+        public Queue<T> Pedidos { get => pedidos; }
 
         private void EmpezarACocinar()
         {

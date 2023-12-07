@@ -25,10 +25,10 @@ namespace FrmView
         //en el formulario los datos de la comida
         private IComestible MostrarComida(IComestible comida)
         {
+            
             if (this.InvokeRequired)
             {
                 this.BeginInvoke(() => this.MostrarComida(comida));
-                this.hamburguesero.HabilitarCocina = true;
             }
             else
             {
@@ -36,6 +36,7 @@ namespace FrmView
                 this.pcbComida.Load(comida.Imagen);
                 this.rchElaborando.Text = comida.ToString();
             }
+                        
             return comida;
         }
 

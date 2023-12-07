@@ -1,0 +1,131 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\UTN\\Programacion y Laboratorio II\\SP_07122023_ALUMNO\\SP_07122023_BRACUTO_LUCAS\\FrmView\\FrmView.csproj": {}
+  },
+  "projects": {
+    "D:\\UTN\\Programacion y Laboratorio II\\SP_07122023_ALUMNO\\SP_07122023_BRACUTO_LUCAS\\Entidades\\Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UTN\\Programacion y Laboratorio II\\SP_07122023_ALUMNO\\SP_07122023_BRACUTO_LUCAS\\Entidades\\Entidades.csproj",
+        "projectName": "Entidades",
+        "projectPath": "D:\\UTN\\Programacion y Laboratorio II\\SP_07122023_ALUMNO\\SP_07122023_BRACUTO_LUCAS\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+        "outputPath": "D:\\UTN\\Programacion y Laboratorio II\\SP_07122023_ALUMNO\\SP_07122023_BRACUTO_LUCAS\\Entidades\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\UTN\\Programacion y Laboratorio II\\SP_07122023_ALUMNO\\SP_07122023_BRACUTO_LUCAS\\FrmView\\FrmView.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\UTN\\Programacion y Laboratorio II\\SP_07122023_ALUMNO\\SP_07122023_BRACUTO_LUCAS\\FrmView\\FrmView.csproj",
+        "projectName": "FrmView",
+        "projectPath": "D:\\UTN\\Programacion y Laboratorio II\\SP_07122023_ALUMNO\\SP_07122023_BRACUTO_LUCAS\\FrmView\\FrmView.csproj",
+        "packagesPath": "C:\\Users\\Lucas\\.nuget\\packages\\",
+        "outputPath": "D:\\UTN\\Programacion y Laboratorio II\\SP_07122023_ALUMNO\\SP_07122023_BRACUTO_LUCAS\\FrmView\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Lucas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "D:\\UTN\\Programacion y Laboratorio II\\SP_07122023_ALUMNO\\SP_07122023_BRACUTO_LUCAS\\Entidades\\Entidades.csproj": {
+                "projectPath": "D:\\UTN\\Programacion y Laboratorio II\\SP_07122023_ALUMNO\\SP_07122023_BRACUTO_LUCAS\\Entidades\\Entidades.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
